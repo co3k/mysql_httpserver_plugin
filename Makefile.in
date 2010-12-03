@@ -232,8 +232,7 @@ MYSQLBASEdir = $(prefix)
 MYSQLLIBdir = $(pkglibdir)
 pkgplugindir = $(pkglibdir)/plugin
 INCLUDES = -I$(top_srcdir)/include -I$(top_builddir)/include \
-           -I$(top_srcdir)/sql \
-           -I$(srcdir) @ZLIB_INCLUDES@
+           -I$(top_srcdir)/sql
 
 pkgplugin_LTLIBRARIES = libhttpserver_example.la
 libhttpserver_example_la_LDFLAGS = -module -rpath $(pkgplugindir)
