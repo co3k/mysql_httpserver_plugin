@@ -1,0 +1,5 @@
+AC_INIT(httpsever_plugin, 0.1)
+AM_INIT_AUTOMAKE
+AC_PROG_LIBTOOL
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
